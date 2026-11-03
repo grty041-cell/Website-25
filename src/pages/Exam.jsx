@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './resc.css';
+import ExamResourceLibrary from '../components/resources/ExamResourceLibrary';
 // import CODE from 'images2/resc/code1.webp'
 // import CODE2 from '/images2/resc/code1 (1).webp'
 // import ssceng from '/images2/resc/ssc-eng.webp';
@@ -226,6 +227,8 @@ const Exam = () => {
         </div>
     </div>
       </section >
+
+        <ExamResourceLibrary />
 
   <div className="containerexam">
 
